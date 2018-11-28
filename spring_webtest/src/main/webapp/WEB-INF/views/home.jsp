@@ -1,10 +1,16 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page contentType="text/html; charset=utf-8" %>
-<c:set var="title" value="나의 여행 블로그"/>
+<c:set var="title" value="나의 webtest"/>
 <c:if test="${not empty sessionScope.id && sessionScope.grade == 'A' }">
 <c:set var ="title" value ="관리자 페이지">
 </c:set>
 </c:if>
+<c:choose>
+	<c:when test=""></c:when>
+
+
+
+</c:choose>
 <html>
 <head>
 	<title>Home</title>
